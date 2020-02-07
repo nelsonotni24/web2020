@@ -1,0 +1,23 @@
+
+
+h1,h2,h3{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+}
+
+span{
+    
+    text-align: center;
+}
+
+.a{
+   
+    color: yellow;
+
+
+}
+
+p{
+    font-size: 50;
+}
