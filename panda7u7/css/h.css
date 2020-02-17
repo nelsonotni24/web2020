@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    text-align: center;
+   
+}
+
+span{
+    color: white;
+    background: black;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav > ul {
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+
+nav > ul li {
+    display: table-cell;
+    
+}
+
+nav > ul >li >ul {
+    display: none;
+}
+
+nav > ul li a {
+    color: #fff;
+    display:block;
+    line-height:20px;
+    padding:20px;
+    position:relative;
+    text-align:center;
+    text-decoration:none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+     transition: all .3s ease;
+}
+
+nav > ul > li > ul > li a:hover {
+    background:#5da5a2;
+}
+/*iconos desplegables*/
+nav > ul > li > a span {
+  
+    color:black;
+    background:white;
+    display: block;
+    height:100%;
+    width:100%;
+    left:0;
+    position:absolute;
+    top:-55px;
+    
+}
+
+nav > ul > li > a span .fa {
+
+    display: block;
+    line-height:60px;
+
+}
+
+nav > ul > li> a:hover > span {
+    top:0;
+
+}
+
+/*aun no he terminado el menu*/
+
+
+section{
+    background: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
