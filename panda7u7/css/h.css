@@ -1,10 +1,12 @@
+
+/*toda la pagina*/
 * {
     margin: 0;
     padding: 0;
 
 }
 
-
+/*logo de la pagina*/
 span.container{
    
     font-size: 50px;
@@ -15,12 +17,16 @@ span.container{
  
 }
 
-
-span{
-    color: white;
-    background: black;
+body{
+    background-image: url(../imagenes/Boom.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
+
+
+/*menu principal*/
 header {
     width: 100%;
     text-align: center;
@@ -98,13 +104,123 @@ nav > ul > li> a:hover > span {
 
 /*aun no he terminado el menu*/
 
+/*formulario de registrarse*/
 
-section{
-    background-color: rgba(255, 255, 255, 0);
-  
+
+/*titulo del formulario*/
+.contenedor .form .form-header .form-title {
+    font-weight: normal;
+    font-family: sans-serif;
     color: white;
+    text-align: center;
+    padding: 14px 0;
 }
 
+/*cuadro del formulario*/
+.contenedor .form {
+    background: rgba(3, 0, 0, 0.637);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+/*letras del formulario*/
+.contenedor .form .form-label{
+    display: block;
+    color:white;
+    font-size: 20px;
+    font-family: Roboto;
+    position: relative;
+    
+
+}
+/*estilo de la parte donde se escribe en el formulario*/
+.contenedor .form .form-input {
+    background:white;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid red;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color:black;
+    font-family: roboto;
+}
+
+.contenedor .form{
+    resize: vertical;
+    max-height: 700px;
+    min-height: 50px;
+}
+ /*boton de registrar*/
+.contenedor .form .btn-sumit {
+    width: 100%;
+    font-family: roboto;
+    outline:none;
+    background:rgba(255, 0, 0, 0.932);
+    font-size: 25px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    transition: all .5s ease ;
+
+}
+/*cambiar de color el boton al poner el cursol ensima*/
+.contenedor .form .btn-sumit:hover{
+    background:rgba(243, 71, 71, 0.514);
+
+}
+
+.btn-sumit {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*seccion de memes en index*/
+
+section.hola{
+   width: 80%;
+   text-align: left;
+    background: rgba(3, 0, 0, 0.637);
+     display: block;
+   
+
+}
+
+.nelson{
+    text-align: center;
+     
+}
+
+.h{
+    text-align: center;
+}
 
 
 
