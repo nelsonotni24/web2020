@@ -74,9 +74,7 @@ nav > ul li a {
      transition: all .3s ease;
 }
 
-nav > ul > li > ul > li a:hover {
-    background:#5da5a2;
-}
+
 /*iconos desplegables*/
 nav > ul > li > a span {
   
@@ -205,26 +203,49 @@ nav > ul > li> a:hover > span {
 /*seccion de memes en index*/
 
 section.hola{
-   width: 80%;
-   text-align: left;
+   width: 50%;
+   text-align: center;
     background: rgba(3, 0, 0, 0.637);
-     display: block;
+  
    
 
 }
 
-.nelson{
-    text-align: center;
-     
+
+
+/*categorias*/
+
+.ot {
+    width: 50%;
+    color: white;
+    background: rgba(3, 0, 0, 0.637);
+    list-style: none;
 }
 
-.h{
-    text-align: center;
+.nj:hover{
+    color: white;
+    background-color: red;
+}
+
+/*lista de los mejores 10 memes*/
+ol{
+    color: white;
+}
+
+ol>li>h1{
+    background-color: red;
+    font-family: 'Akronim',
+    cursive;
 }
 
 
+ul#nel a {
+    color: white;
+}
 
-
+ul#nel a:hover {
+    text-decoration: none;
+}
 
 
 
