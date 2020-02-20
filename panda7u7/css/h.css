@@ -247,8 +247,10 @@ ul#nel a:hover {
     text-decoration: none;
 }
 
-
-
+#no{
+    width: 50%;
+     background: rgba(3, 0, 0, 0.637);
+}
 
 
 
